@@ -35,7 +35,7 @@ $aModule = array(
     'description' => array(
         'de' => 'Wird eine Auswahl der Anrede, bzw. des Geschlechts, im Onlineshop für den Nutzer auswählbar gemacht, 
         oder gar als Pfilchtfeld angegeben, so muss dem Nutzer eine weitere Option zur Verfügung gestellt werden,
-         um das dritte Geschlecht nicht zu diskreminieren.<br>Dieses Modul fügt der Anrede-Vorlage eine weitere Option für das Geschlecht hinzu. 
+         um das dritte Geschlecht nicht zu diskriminieren.<br>Dieses Modul fügt der Anrede-Vorlage eine weitere Option für das Geschlecht hinzu. 
          Der Datenbankwert für die neue Option kann als Konfigurationsparameter im Modul definiert werden.<br>
          Die Metadatenversion ist auf 2.0 eingestellt, sodass die Theme-Option im Blockabschnitt verwendet werden konnte. 
          Es gibt einen benutzerdefinierten Vorlagenblock mit einem Radio-Input anstelle eines Select Felds.',
