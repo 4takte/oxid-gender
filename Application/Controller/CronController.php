@@ -115,11 +115,11 @@ class CronController extends FrontendController
         }
 
         // update all fenale entries to oxid std value
-        $sQFemale = "update oxuser set oxsal='MRS' where oxsal in (".implode(",", $this->_aFemaleValues).")";
+        $sQFemale = "update oxuser set oxsal='MRS' where oxsal in (".implode(",", $oDb->quoteArray($this->_aFemaleValues)).")";
         $rsUpdateFemale = $oDb->execute($sQFemale);
 
         // update all male entries to oxid std value
-        $sQMale = "update oxuser set oxsal='MR' where oxsal in (".implode(",", $this->_aMaleValues).")";
+        $sQMale = "update oxuser set oxsal='MR' where oxsal in (".implode(",", $oDb->quoteArray($this->_aMaleValues)).")";
         $rsUpdateMale = $oDb->execute($sQMale);
 
     }
