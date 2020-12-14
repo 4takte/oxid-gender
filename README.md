@@ -10,7 +10,7 @@ If a selection of the salutation or gender is made selectable for the user in th
 ## Installation
 ### 1 - Install with composer
 ```
-composer require viertakte/oxid-gender:"dev-main"
+composer require 4takte/oxid-gender:"dev-main"
 ```
 ### 2 - Add the missing block to your theme
 There are open pull requests asking to integrate this block in flow and wave theme.  
