@@ -1,0 +1,24 @@
+{
+  "name": "viertakte/oxid-gender",
+  "description": "Adds an other-gender option to OXID eShop.",
+  "type": "oxideshop-module",
+  "keywords": [
+    "oxid",
+    "modules",
+    "eShop"
+  ],
+  "license": [
+    "MIT"
+  ],
+  "extra": {
+    "oxideshop": {
+      "target-directory": "viertakte/oxid-gender"
+    }
+  },
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Viertakte\\OxidGender\\": "../../../source/modules/viertakte/oxid-gender"
+    }
+  }
+}
